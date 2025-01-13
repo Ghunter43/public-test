@@ -1,0 +1,3 @@
+resources:
+  - 10-service.yaml
+  - 20-deployment.yaml
