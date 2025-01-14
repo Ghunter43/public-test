@@ -23,7 +23,7 @@ spec:
         namespace: dev
         server: https://kubernetes.default.svc
       source:
-        repoURL: githttps://github.com/Ghunter43/public-test.git
+        repoURL: git@github.com:Ghunter43/public-test.git
         targetRevision: main
         path: apps/{{applicationName}}/overlays/dev
       syncPolicy: 
