@@ -2,7 +2,7 @@ namespace: dev
 
 resources:
   - ../../base
-  - ../10-namespace.yaml
+  - 10-namespace.yaml
 
 patchesStrategicMerge:
   - patches/20-deployment.yaml
